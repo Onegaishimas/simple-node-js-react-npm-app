@@ -2,7 +2,11 @@ pipeline {
     agent {
         docker {
             image 'node:lts-buster-slim'
+<<<<<<< HEAD
             args '-p 3001:3001'
+=======
+            args '-p 3001:30001'
+>>>>>>> 24fac4b500bb5decdb0ce90bb673ac40a5e36fa1
         }
     }
     environment {
